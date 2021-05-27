@@ -20,8 +20,8 @@ class MainActivity : AppCompatActivity() {
 
 
         add.setOnClickListener{
-           var number1=num1.text.toString().toInt()
             var number2=num1.text.toString().toInt()
+            var number1=num1.text.toString().toInt()
             var result=number1+number2
             etresult.text="Result:$result"
 
@@ -36,16 +36,6 @@ class MainActivity : AppCompatActivity() {
 
 
 
-        }
-        multiply.setOnClickListener{
-
-            var number2=num1.text.toString().toInt()
-            var number1=num1.text.toString().toInt()
-            var result=number1*number2
-
-
-            etresult.text="Result:$result"
-
 
         }
         divide.setOnClickListener{
@@ -55,6 +45,18 @@ class MainActivity : AppCompatActivity() {
 
 
             etresult.text="Result:$result"
+
+        }
+
+        multiply.setOnClickListener{
+
+            var number2=num1.text.toString().toInt()
+            var number1=num1.text.toString().toInt()
+            var result=number1*number2
+
+
+            etresult.text="Result:$result"
+
 
         }
 
