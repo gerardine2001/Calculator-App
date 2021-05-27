@@ -19,14 +19,7 @@ class MainActivity : AppCompatActivity() {
         var etresult=findViewById<TextView>(R.id.etNum2)
 
 
-        add.setOnClickListener{
-            var number2=num1.text.toString().toInt()
-            var number1=num1.text.toString().toInt()
-            var result=number1+number2
-            etresult.text="Result:$result"
 
-
-        }
         subtract.setOnClickListener{
             var number1=num1.text.toString().toInt()
             var number2=num1.text.toString().toInt()
@@ -35,6 +28,14 @@ class MainActivity : AppCompatActivity() {
             etresult.text="Result:$result"
 
 
+
+
+        }
+        add.setOnClickListener{
+            var number2=num1.text.toString().toInt()
+            var number1=num1.text.toString().toInt()
+            var result=number1+number2
+            etresult.text="Result:$result"
 
 
         }
