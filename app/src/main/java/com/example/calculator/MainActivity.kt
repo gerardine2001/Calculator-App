@@ -38,8 +38,9 @@ class MainActivity : AppCompatActivity() {
 
         }
         multiply.setOnClickListener{
-            var number1=num1.text.toString().toInt()
+
             var number2=num1.text.toString().toInt()
+            var number1=num1.text.toString().toInt()
             var result=number1*number2
 
 
